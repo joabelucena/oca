@@ -10,8 +10,8 @@ public class AccessModifiers {
 	 * Access		Description
 	 * **************************************
 	 * private		Can be accessed from within the same class.
-	 * protected	Can be accessed from classes within the same package OR sub-classes
 	 * no-modifier	Can be accessed from classes within the same package
+	 * protected	Can be accessed from classes within the same package OR sub-classes
 	 * public		Can be accessed from anywhere
 	 * 
 	 */
