@@ -7,7 +7,7 @@ public class DataReturning {
 		String letters = "abc";
 		number(number);
 		letters = letters(letters);
-		System.out.println(number + letters);
+		System.out.println(number + letters.substring(-2));
 
 	}
 	
