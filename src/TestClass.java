@@ -25,6 +25,18 @@ public class TestClass {
 			}
 			System.out.println(x);
 		}
+		
+		System.out.println(TextElements.SEPARATOR);
+		
+		{
+			StringBuilder a = new StringBuilder("a");
+			StringBuilder b = a;
+			
+			a.append("b");
+			
+			System.out.println(a);
+			System.out.println(b);
+		}
 
 	}
 
