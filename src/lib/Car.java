@@ -1,6 +1,9 @@
 package lib;
 
 public class Car {
+	
+	public static int test;
+	
 	private String brand;
 	
 	private String model;

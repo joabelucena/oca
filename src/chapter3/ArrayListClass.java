@@ -9,6 +9,8 @@ import lib.TextElements;
 @SuppressWarnings({"unused", "all"})
 public class ArrayListClass {
 	
+	protected String hello = "Hello";		//Static protected variable for used as example of inheritance on chapter5
+	
 	static TextElements tx;
 
 	public static void main(String[] args) {

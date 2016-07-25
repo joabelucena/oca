@@ -1,3 +1,4 @@
+import lib.Car;
 import lib.TextElements;
 
 public class TestClass {
@@ -36,6 +37,14 @@ public class TestClass {
 			
 			System.out.println(a);
 			System.out.println(b);
+		}
+		
+		System.out.println(TextElements.SEPARATOR);
+		
+		{
+			Car car = new Car();
+			
+//			car.test;			//DOES NOT COMPILE: trying to access a static variable, but a package-private one
 		}
 
 	}
