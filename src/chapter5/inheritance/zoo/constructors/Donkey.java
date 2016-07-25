@@ -1,4 +1,4 @@
-package chapter5.zoo.constructors;
+package chapter5.inheritance.zoo.constructors;
 
 /*
  * Compiler code optimization steps

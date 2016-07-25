@@ -1,4 +1,4 @@
-package chapter5.zoo.hiding;
+package chapter5.inheritance.zoo.hiding;
 
 public class Marsupial {
 	

@@ -1,4 +1,4 @@
-package chapter5.zoo.modifiers;
+package chapter5.inheritance.zoo.modifiers;
 
 class Fish {
 	protected int size;

@@ -1,6 +1,6 @@
-package chapter5.zoo.modifiers;
+package chapter5.inheritance.zoo.modifiers;
 
-import chapter5.zoo.Animal;
+import chapter5.inheritance.zoo.Animal;
 
 public class Lion extends Animal{
 	private void roar(){

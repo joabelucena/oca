@@ -1,4 +1,4 @@
-package chapter5.zoo.overriding;
+package chapter5.inheritance.zoo.overriding;
 
 public class Canine {
 	public double getAverageWeight() {

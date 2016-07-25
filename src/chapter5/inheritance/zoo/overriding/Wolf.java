@@ -1,4 +1,4 @@
-package chapter5.zoo.overriding;
+package chapter5.inheritance.zoo.overriding;
 
 public class Wolf extends Canine{
 	
@@ -7,7 +7,7 @@ public class Wolf extends Canine{
 	 * and the return type must be the same or at least a subclass of the parent return
 	 * 
 	 * (non-Javadoc)
-	 * @see chapter5.zoo.overriding.Canine#getAverageWeight()
+	 * @see chapter5.inheritance.zoo.overriding.Canine#getAverageWeight()
 	 */
 	public double getAverageWeight(){
 		return super.getAverageWeight() + 20;

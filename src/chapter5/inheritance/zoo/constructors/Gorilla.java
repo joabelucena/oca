@@ -1,6 +1,6 @@
-package chapter5.zoo.constructors;
+package chapter5.inheritance.zoo.constructors;
 
-import chapter5.zoo.Animal;
+import chapter5.inheritance.zoo.Animal;
 
 public class Gorilla extends Animal {
 	

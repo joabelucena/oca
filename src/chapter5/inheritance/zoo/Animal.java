@@ -1,4 +1,4 @@
-package chapter5.zoo;
+package chapter5.inheritance.zoo;
 
 public class Animal {
 	private int age;

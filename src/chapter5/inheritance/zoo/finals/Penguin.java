@@ -1,4 +1,4 @@
-package chapter5.zoo.finals;
+package chapter5.inheritance.zoo.finals;
 
 class Bird {
 	
