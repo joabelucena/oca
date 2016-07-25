@@ -1,3 +1,4 @@
+import chapter5.zoo.hiding.Kangaroo;
 import lib.Car;
 import lib.TextElements;
 
@@ -45,6 +46,13 @@ public class TestClass {
 			Car car = new Car();
 			
 //			car.test;			//DOES NOT COMPILE: trying to access a static variable, but a package-private one
+		}
+		
+		System.out.println(TextElements.SEPARATOR);
+		
+		{
+			Kangaroo joey = new Kangaroo();
+			joey.getMarsupialDescription();
 		}
 
 	}
