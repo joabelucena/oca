@@ -30,52 +30,37 @@ public class Exceptions {
 	
 
 	public static void main(String[] args) {
-		
-		System.out.println("a");
+				
+		/*
+		 * Must be handled
+		 */
 		try {
-			System.out.println("b");
-			throw new IllegalArgumentException();
-		} catch (IllegalArgumentException e) {
-			System.out.println("c");
-			throw new RuntimeException("1");
-		} catch (RuntimeException e) {
-			System.out.println("d");
-			throw new RuntimeException("2");
-		} finally {
-			System.out.println("e");
-			throw new RuntimeException("3");
+			CheckedException();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
 		}
 		
-//		/*
-//		 * Must be handled
-//		 */
-//		try {
-//			CheckedException();
-//		} catch (Exception e) {
-//			System.out.println(e.getMessage());
-//		}
-//		
-//		/*
-//		 * May or may not be handled
-//		 */
-//		try {
-//			UnCheckedException();	
-//		} catch (Exception e) {
-//			// TODO: handle exception
-//		}
-//		
-//		/*
-//		 * Can't be handled
-//		 */
-//		try {
-//			Error();
-//		} catch (Exception e) {
-//			//Never get called
-//			System.out.println(e.getMessage());
-//		}
-//
-//		//Never get called: stops on error
-//		NoException();
+		/*
+		 * May or may not be handled
+		 */
+		try {
+			UnCheckedException();	
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		/*
+		 * Can't be handled
+		 */
+		try {
+			Error();
+		} catch (Exception e) {
+			//Never get called
+			System.out.println(e.getMessage());
+		}
+
+		//Never get called: stops on error
+		NoException();
 
 	}
 
