@@ -1,6 +1,6 @@
-import chapter5.zoo.hiding.Kangaroo;
 import lib.Car;
 import lib.TextElements;
+import chapter5.modifiers.z.Z;
 
 public class TestClass {
 
@@ -53,6 +53,15 @@ public class TestClass {
 		{
 			Kangaroo joey = new Kangaroo();
 			joey.getMarsupialDescription();
+		}
+		
+		System.out.println(TextElements.SEPARATOR);
+		
+		{
+			Z z = new Z();
+			z.getPublicX();
+			z.getPublicY();
+			z.getPublicZ();
 		}
 
 	}
