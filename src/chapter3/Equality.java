@@ -1,7 +1,7 @@
 package chapter3;
 
 import lib.Car;
-import lib.TextElements;
+import static lib.TextElements.*;
 
 @SuppressWarnings("all")
 public class Equality {
@@ -17,7 +17,7 @@ public class Equality {
 			System.out.println(one == three);
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		/*
 		 * Compiled-time is different than run-time Strings
@@ -33,7 +33,7 @@ public class Equality {
 			
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			String x = new String("Hello World");	//This one stays at regular objects memory, eg.: new Car(), new String(), new ArrayList(), ...
@@ -42,7 +42,7 @@ public class Equality {
 			System.out.println(x == y);
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			String x = "Hello World";
@@ -51,7 +51,7 @@ public class Equality {
 			System.out.println(x.equals(z));
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			Car c1 = new Car();

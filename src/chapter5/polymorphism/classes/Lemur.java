@@ -1,6 +1,6 @@
 package chapter5.polymorphism.classes;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 import chapter5.polymorphism.interfaces.HasTail;
 
 public class Lemur extends Primate implements HasTail {
@@ -29,7 +29,7 @@ public class Lemur extends Primate implements HasTail {
 			System.out.println(primate.isTailStriped());	
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//Casting objects
 		{

@@ -3,7 +3,7 @@ package chapter3;
 import java.util.ArrayList;
 import java.util.List;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 @SuppressWarnings("all")
 public class WrapperClasses {

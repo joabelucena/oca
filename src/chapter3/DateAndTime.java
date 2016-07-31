@@ -13,7 +13,7 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 @SuppressWarnings("all")
 public class DateAndTime {

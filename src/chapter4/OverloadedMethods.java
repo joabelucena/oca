@@ -1,6 +1,6 @@
 package chapter4;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 public class OverloadedMethods {
 	public static void main(String[] args) {
@@ -12,13 +12,13 @@ public class OverloadedMethods {
 		
 		test((byte) 1214);
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		System.out.print(glide("a"));
 		System.out.print(glide("a", "b"));
 		System.out.print(glide("a", "b", "c"));
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 //		play(4);				//DOES NOT COMPILE: The autobox (from int to long) is made on compile time. Since Java doesn't find any play(long l) method, it doesn't compile
 		play(4L);

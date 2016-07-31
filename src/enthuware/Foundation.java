@@ -1,5 +1,5 @@
 package enthuware;
-import lib.TextElements;
+import static lib.TextElements.*;
 
 public class Foundation {
 
@@ -19,7 +19,7 @@ public class Foundation {
 			System.out.println(a | b);
 		}
 
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 
 		// Switches: larger --> smaller
 		{
@@ -46,7 +46,7 @@ public class Foundation {
 
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			switch (1) {

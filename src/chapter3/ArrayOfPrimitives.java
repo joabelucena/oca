@@ -2,7 +2,7 @@ package chapter3;
 
 import java.util.Arrays;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 @SuppressWarnings("all")
 public class ArrayOfPrimitives {
@@ -36,7 +36,7 @@ public class ArrayOfPrimitives {
 			int ids[], types;
 		}
 
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 
 		{
 			String[] bugs = { "cricket", "beetle", "ladybug" };
@@ -53,7 +53,7 @@ public class ArrayOfPrimitives {
 			System.out.println(Arrays.toString(bugs));
 		}
 
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 
 		{
 			String[] str = { "stringValue" };
@@ -74,7 +74,7 @@ public class ArrayOfPrimitives {
 			}
 		}
 
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 
 		{
 			int[] numbers = { 6, 9, 1 };
@@ -83,7 +83,7 @@ public class ArrayOfPrimitives {
 				System.out.print(i + " ");
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 
 		//sort()
 		{
@@ -93,7 +93,7 @@ public class ArrayOfPrimitives {
 				System.out.print(str + " ");
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//binarySearch()
 		{

@@ -1,6 +1,6 @@
 package chapter3;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 @SuppressWarnings("all")
 public class StringBuilderClass {
@@ -19,7 +19,7 @@ public class StringBuilderClass {
 			System.out.println(alpha.toUpperCase());
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		/*
 		 * As StringBuilder class is not immutable, it can holds the object and
@@ -32,7 +32,7 @@ public class StringBuilderClass {
 			System.out.println(alpha.toString().toUpperCase());
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		/*
 		 * Remember, StringBuilder class is mutable...
@@ -46,7 +46,7 @@ public class StringBuilderClass {
 			System.out.println(same);
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			StringBuilder sb1 = new StringBuilder();			//Creates a empty StringBuilder
@@ -54,7 +54,7 @@ public class StringBuilderClass {
 			StringBuilder sb3 = new StringBuilder(10);			//Creates StringBuilder containing 10 empty spaces
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			StringBuilder sb = new StringBuilder();
@@ -62,7 +62,7 @@ public class StringBuilderClass {
 			System.out.println(sb.capacity());
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//append()
 		{
@@ -71,7 +71,7 @@ public class StringBuilderClass {
 			System.out.println(sb);
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//insert()
 		{
@@ -81,13 +81,13 @@ public class StringBuilderClass {
 			 */
 			System.out.println("012345");
 			System.out.println("Oracle");
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			System.out.println("0 - " + new StringBuilder("Oracle").insert(0, "AAA"));
 			System.out.println("3 - " + new StringBuilder("Oracle").insert(3, "AAA"));
 			
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//delete()
 		{
@@ -95,20 +95,20 @@ public class StringBuilderClass {
 			System.out.println(new StringBuilder("Oracle").deleteCharAt(4));
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//reverse() +  toString()
 		{
 			System.out.println(new StringBuilder("Oracle").reverse().toString().toUpperCase());
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
-		System.out.println(TextElements.SEPARATOR);
-		System.out.println(TextElements.SEPARATOR);
-		System.out.println(TextElements.SEPARATOR);
-		System.out.println(TextElements.SEPARATOR);
-		System.out.println(TextElements.SEPARATOR);
+		separe();
+		separe();
+		separe();
+		separe();
+		separe();
 	}
 
 }

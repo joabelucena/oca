@@ -1,6 +1,6 @@
 package chapter2;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 public class NestedLoops {
 
@@ -18,7 +18,7 @@ public class NestedLoops {
 			}
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//Array Iteration with labels
 		{
@@ -32,7 +32,7 @@ public class NestedLoops {
 //				break OUTER_LOOP;
 			}
 		}
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		//Search Example (with labeled 'break' control)
 		{
 			int[][] list = {{1,13,5},{1,2,5},{2,7,2}};
@@ -56,7 +56,7 @@ public class NestedLoops {
 				
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//Search Example (with labeled 'continue' control)
 		{

@@ -1,6 +1,6 @@
 package chapter3;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 @SuppressWarnings("unused")
 public class MultiDimensionalArray {
@@ -13,7 +13,7 @@ public class MultiDimensionalArray {
 			int[] vars4 [], space[][];	// a 2D and a 3D array
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			
@@ -22,13 +22,13 @@ public class MultiDimensionalArray {
 			rectangule[0][1] = "set";
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			int[][] differentSize = {{1,4}, {3}, {9,8,7}};
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			int [][] el = new int[4][];

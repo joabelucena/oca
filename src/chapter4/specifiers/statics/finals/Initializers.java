@@ -2,7 +2,7 @@ package chapter4.specifiers.statics.finals;
 
 import java.util.ArrayList;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 public class Initializers {
 	
@@ -25,9 +25,9 @@ public class Initializers {
 	 */
 	public Initializers(){
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		System.out.println("Constructor");
-		System.out.println(TextElements.MINISEPARATOR);
+		miniSepare();
 		
 		static1 = 3;
 		static2 = 3;
@@ -43,7 +43,7 @@ public class Initializers {
 		System.out.println("instance1: " + instance1);
 		System.out.println("instance2: " + instance2);
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 	}
 	
@@ -53,9 +53,9 @@ public class Initializers {
 	 * Instance initializer. Only instance variables are allowed to stay here
 	 */
 	{
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		System.out.println("Instance initializer");
-		System.out.println(TextElements.MINISEPARATOR);
+		miniSepare();
 		
 		static1 = 2;
 		static2 = 2;
@@ -71,7 +71,7 @@ public class Initializers {
 		System.out.println("instance1: " + instance1);
 		System.out.println("instance2: " + instance2);
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 	}
 	
@@ -84,9 +84,9 @@ public class Initializers {
 	 */
 	static {
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		System.out.println("Static initializer");
-		System.out.println(TextElements.MINISEPARATOR);
+		miniSepare();
 		
 		static1 = 1;
 		static2 = 1;
@@ -101,7 +101,7 @@ public class Initializers {
 //		System.out.println("instance1: " + instance1);			//DOES NOT COMPILE
 //		System.out.println("instance2: " + instance2);			//DOES NOT COMPILE
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 	}
 	
 	

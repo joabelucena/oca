@@ -3,7 +3,7 @@ package enthuware;
 import java.util.ArrayList;
 import java.util.List;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 
 class A {int i = 10; int m1() { return i; }}
@@ -22,7 +22,7 @@ public abstract class Test1 {
 			System.out.println(o2.i); 		// 20 from B
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//Wrapper Classes
 		{
@@ -65,7 +65,7 @@ public abstract class Test1 {
 			
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		
 		//Testing equality
@@ -111,14 +111,14 @@ public abstract class Test1 {
 			if(f==b) System.out.println("f==b");	// true
 			if(d==b) System.out.println("d==b");	// true
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			if(b==bd) System.out.println("b==bd");	// true
 			if(l==bw) System.out.println("l==bw");	// true
 			if(f==bw) System.out.println("f==bw");	// true
 			if(d==bw) System.out.println("d==bw");	// true
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 //			if(bw==sw) System.out.println("b==sw");	// DOES NOT COMPILE
 //			if(lw==bw) System.out.println("l==bw");	// DOES NOT COMPILE
@@ -131,14 +131,14 @@ public abstract class Test1 {
 			if(fd==fw) System.out.println("fd==fw"); // false
 			if(dd==dw) System.out.println("dd==dw"); // false
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			if(bw.equals(sw)) System.out.println("b.equals(sw)");	// false
 			if(lw.equals(bw)) System.out.println("l.equals(bw)");	// false
 			if(fw.equals(bw)) System.out.println("f.equals(bw)");	// false
 			if(dw.equals(bw)) System.out.println("d.equals(bw)");	// false
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			if(bd.equals(bw)) System.out.println("bd.equals(bw)"); // true
 			if(ld.equals(lw)) System.out.println("ld.equals(lw)"); // true
@@ -148,7 +148,7 @@ public abstract class Test1 {
 			
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			String s = null;
@@ -157,7 +157,7 @@ public abstract class Test1 {
 			System.out.println(s);
 		}
 
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			List s1 = new ArrayList();
@@ -169,7 +169,7 @@ public abstract class Test1 {
 			System.out.println(s1);
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			A s1 = new A();

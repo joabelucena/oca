@@ -1,6 +1,6 @@
 package chapter3;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 @SuppressWarnings("all")
 public class StringClass {
@@ -14,7 +14,7 @@ public class StringClass {
 
 		}
 
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 
 		// Concatenation
 		{
@@ -33,7 +33,7 @@ public class StringClass {
 			System.out.println(s);
 		}
 
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 
 		{
 
@@ -52,7 +52,7 @@ public class StringClass {
 			System.out.println(s1.concat("2"));
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		//String Common methods
 		{
@@ -63,7 +63,7 @@ public class StringClass {
 			//Returns String size
 			System.out.println(test.length());
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//Returns the char at the passed index
 			System.out.println(test.charAt(0));
@@ -71,18 +71,18 @@ public class StringClass {
 			System.out.println(test.charAt(2));
 			System.out.println(test.charAt(3));
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//IndexOf
 			System.out.println(test.indexOf('a'));
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//'char, fromIndex
 			System.out.println(test.indexOf('a',test.indexOf('a')+1));
 			System.out.println(test.indexOf("acle"));
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//Substring
 			System.out.println(test.substring(3));
@@ -91,27 +91,27 @@ public class StringClass {
 			System.out.println(test.substring(2,4));
 			System.out.println(test.substring(test.indexOf('r'),test.indexOf('e')));
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//toUpperCase() and toLowerCase()
 			System.out.println(test.toUpperCase());
 			System.out.println(test.toLowerCase());
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//equals() and equalsIgnoreCase()
 			System.out.println("abc".equals("ABC"));
 			System.out.println("ABC".equals("ABC"));
 			System.out.println("abc".equalsIgnoreCase("AbC"));
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//startsWith() and endsWith()
 			System.out.println(test.startsWith("o"));	//false
 			System.out.println(test.startsWith("O"));	//true
 			System.out.println(test.endsWith("e"));		//true
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//contains()
 			System.out.println(test.contains("o"));		//false
@@ -119,21 +119,21 @@ public class StringClass {
 			System.out.println(test.contains("e"));		//true
 			System.out.println(test.contains("cle"));	//true
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//replace()
 			System.out.println(test.replace('a', 'b'));
 			System.out.println(test.replace("f", "g"));
 			System.out.println(test.replace("acl", "JAVA"));
 			
-			System.out.println(TextElements.MINISEPARATOR);
+			miniSepare();
 			
 			//trim()
 			System.out.println(("\t" + test + "   " + "aa").trim());
 				
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			String result = "AniMaL        ".trim().toLowerCase().replace("a", "A");

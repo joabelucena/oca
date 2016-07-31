@@ -1,6 +1,6 @@
 package chapter4.specifiers.statics;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 import chapter4.specifiers.statics.Koala;
 
 public class KoalaTester extends TextElements {

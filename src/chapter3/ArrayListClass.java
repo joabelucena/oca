@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import lib.TextElements;
+import static lib.TextElements.*;
 
 @SuppressWarnings({"unused", "all"})
 public class ArrayListClass {

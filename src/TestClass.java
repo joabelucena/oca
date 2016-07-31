@@ -1,5 +1,5 @@
 import lib.Car;
-import lib.TextElements;
+import static lib.TextElements.*;
 import chapter5.modifiers.z.Z;
 
 public class TestClass {
@@ -16,7 +16,7 @@ public class TestClass {
 			System.out.println(count);
 		}
 
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			int m = 9, n = 1, x = 0;
@@ -28,7 +28,7 @@ public class TestClass {
 			System.out.println(x);
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			StringBuilder a = new StringBuilder("a");
@@ -40,7 +40,7 @@ public class TestClass {
 			System.out.println(b);
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			Car car = new Car();
@@ -48,14 +48,14 @@ public class TestClass {
 //			car.test;			//DOES NOT COMPILE: trying to access a static variable, but a package-private one
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			Kangaroo joey = new Kangaroo();
 			joey.getMarsupialDescription();
 		}
 		
-		System.out.println(TextElements.SEPARATOR);
+		separe();
 		
 		{
 			Z z = new Z();
