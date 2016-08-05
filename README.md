@@ -1,7 +1,7 @@
 OCA: Oracle Certified Associate Java SE 8 Programmer I
 ======================================================
 
-This an eclipse based project that contains the main topics covered in the OCA Oracle Certified Associate Java SE8 programer I (1Z0-808) exam. The materials used to prepare for the exam were:
+This is an eclipse-based project that contains the main topics covered in the OCA Oracle Certified Associate Java SE8 programer I (1Z0-808) exam. The materials used to prepare for the exam were:
 
  - OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808 by Jeanne Boyarsky;
  - Enthuware 1Z0-808 training question bank
